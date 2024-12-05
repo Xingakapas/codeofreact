@@ -7,7 +7,7 @@ function Notification({ priority }) {
     case 'low':
       message = 'No immediate action required.';
       break;
-    case 'medium':
+    case 'medium':  
       message = 'Please address this issue soon.';
       break;
     case 'high':
