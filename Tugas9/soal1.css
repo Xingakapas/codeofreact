@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantity button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .decrease:disabled,
+  .increase:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
