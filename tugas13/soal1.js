@@ -31,4 +31,4 @@ function CobaAxios() {
   );
 }
 
-export default CobaAxios;
+export default CobaAxios;1
