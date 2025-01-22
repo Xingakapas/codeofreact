@@ -20,14 +20,14 @@ function BookList() {
   return (
     <div>
       <h1>Daftar Buku React</h1>
-      <ul>
+      <ul>xx
         {books.map((book) => (
           <Book key={book.id} book={book} />
         ))}
       </ul>
     </div>
   );
-}
+}x
 
 export default BookList;
 //script ini akan memimta api ke gugel//
