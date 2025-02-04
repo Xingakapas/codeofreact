@@ -12,7 +12,7 @@ function Login() {
     try {
       const response = await axios.post('/api/login', {
         username,
-        password,
+        password, 
       });
       // Simpan token jika login berhasil
       localStorage.setItem('token', response.data.token);

@@ -29,9 +29,10 @@ function BookDetail() {
         </div>
       ) : (
         <p>Buku tidak ditemukan.</p>
-      )}
+      )}  
     </div>
   );
 }
 
 export default BookDetail;
+ 

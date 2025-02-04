@@ -55,5 +55,5 @@ function ProductList() {
         </table>
       )}
     </div>
-  );
+  );    
 }

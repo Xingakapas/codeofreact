@@ -46,4 +46,4 @@ function ProductList() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<ProductList />);x
+root.render(<ProductList />);x    
