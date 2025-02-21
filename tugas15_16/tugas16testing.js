@@ -26,4 +26,3 @@ if (decodedToken) {
   console.log("Header:", decodedToken.header);
   console.log("Payload:", decodedToken.payload);
   console.log("Signature:", decodedToken.signature);
-}
