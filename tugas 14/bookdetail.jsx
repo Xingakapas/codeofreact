@@ -31,8 +31,7 @@ function BookDetail() {
         <p>Buku tidak ditemukan.</p>
       )}  
     </div>
-  );
-}
+  );  
 
-export default BookDetail;
+export default BookDetail; //cara kerja kode nya jadi 
  

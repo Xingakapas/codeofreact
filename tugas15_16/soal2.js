@@ -14,7 +14,7 @@ function ProductList() {
         setError('Akses ditolak: Silakan login terlebih dahulu');
         return;
       }
-
+      
       try {
         const response = await axios.get('/api/products', {
           headers: {
